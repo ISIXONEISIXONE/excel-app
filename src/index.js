@@ -1,2 +1,2 @@
-import "./module";
-console.log("wow");
+import './scss/index.scss'
+console.log('wow')
