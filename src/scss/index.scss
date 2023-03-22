@@ -1,0 +1,31 @@
+@import "~normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import "variable";
+@import "mixins";
+
+
+@import "header";
+@import "table";
+@import "formula";
+@import "toolbar";
+@import "dashboard";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px
+}
+
+.excel {
+height: 100%;
+max-width: 100%;
+position: relative;
+color: #888;
+font-size: .8rem;
+
+}
